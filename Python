@@ -1,0 +1,9 @@
+print("Introduce la Velocidad Inicial")
+rInicial = float(input())
+print("Introduce la Velocidad final")
+rFinal = float(input())
+print("Introdice el tiempo")
+rTiempo = float(input())
+rDistancia = (rInicial + rFinal) / 2 * rTiempo
+print("La distancia es: ", end='', flush=True)
+print(rDistancia)
