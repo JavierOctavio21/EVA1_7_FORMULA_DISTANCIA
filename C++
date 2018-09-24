@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Introduce la Velocidad Inicial" << endl;
+    double rInicial;
+    
+    cin >> rInicial;
+    cout << "Introduce la Velocidad final" << endl;
+    double rFinal;
+    
+    cin >> rFinal;
+    cout << "Introdice el tiempo" << endl;
+    double rTiempo;
+    
+    cin >> rTiempo;
+    double rDistancia;
+    
+    rDistancia = (rInicial + rFinal) / 2 * rTiempo;
+    cout << "La distancia es: ";
+    cout << rDistancia << endl;
+    return 0;
+}
